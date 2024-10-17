@@ -3,7 +3,7 @@ Description = Backend Service
 
 [Service]
 User=expense
-Environment=DB_HOST="swetha-devops.online"
+Environment=DB_HOST="mysql.swetha-devops.online"
 ExecStart=/bin/node /app/index.js
 SyslogIdentifier=backend
 
